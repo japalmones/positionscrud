@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-export const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL;
-=======
 export const TOKEN_KEY = "accessToken";
 
 // Remove trailing slashes and spaces from API base URL
@@ -28,4 +25,3 @@ export function logoutUser() {
     localStorage.removeItem(TOKEN_KEY);
   }
 }
->>>>>>> c140df35854b789e0b59b88ea8ced05b0eeec344
